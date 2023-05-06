@@ -4,8 +4,10 @@
   "description": "Mern stack",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "server": "nodemon app.js"
+    "dev": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run dev --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [
     "mern",
