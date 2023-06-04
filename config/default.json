@@ -1,6 +1,0 @@
-{
-  "port": 7000,
-  "jwtSecret": "SECRET_KEY",
-  "mongoUri": "mongodb://localhost:27017/links-app",
-  "baseUrl": "http://localhost:5000"
-}
