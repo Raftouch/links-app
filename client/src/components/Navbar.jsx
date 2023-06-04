@@ -16,7 +16,7 @@ export const Navbar = () => {
     <nav>
       <div className="nav-wrapper blue darken-1" style={{ padding: "0 2rem" }}>
         <span to="/" className="brand-logo left" style={{ padding: "0 2rem" }}>
-          Link reducer
+          Links App
         </span>
         <ul id="nav-mobile" className="right">
           <li>
